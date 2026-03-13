@@ -60,6 +60,7 @@ const Home = () => {
 
     return (
         <main>
+            <h2>TODO App - Savuth Messavarin</h2>
             <Create />
             {
                 todos.length === 0 ? <div className='task'>No tasks found</div> :
